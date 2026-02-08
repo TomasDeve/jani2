@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Mail, Leaf } from 'lucide-react';
+import { Leaf } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (

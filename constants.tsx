@@ -1,5 +1,4 @@
-import React from 'react';
-import { BookOpen, Microscope, GraduationCap, Users, Dna, Leaf, Activity, Brain } from 'lucide-react';
+import { BookOpen, Microscope, GraduationCap, Dna, Leaf, Activity, Brain } from 'lucide-react';
 
 export const NAV_LINKS = [
   { name: 'Início', href: '#home' },
