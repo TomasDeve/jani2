@@ -1,5 +1,5 @@
-import { Topic, Testimonial, NavItem } from './types';
-import { Dna, Leaf, Microscope, Brain, Users, GraduationCap } from 'lucide-react';
+import { Testimonial, NavItem } from './types';
+import { Dna, Leaf, Microscope, Brain } from 'lucide-react';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Início', href: '#home' },
