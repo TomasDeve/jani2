@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <div key={index} className="bg-slate-50 p-6 rounded-2xl hover:shadow-md transition-all duration-300 border border-slate-100 text-center group">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <div className={`p-2.5 rounded-full ${index === 1 ? 'bg-bio-100' : index === 2 ? 'bg-purple-100' : 'bg-blue-100'}`}>
-                   {React.cloneElement(feature.icon as React.ReactElement, {
+                   {React.cloneElement(feature.icon as React.ReactElement<any>, {
                       className: `w-6 h-6 ${index === 1 ? 'text-bio-600' : index === 2 ? 'text-purple-600' : 'text-blue-600'}`
                    })}
                 </div>
